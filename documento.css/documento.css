@@ -1,0 +1,157 @@
+body {
+    background: url(../imagenes/fondo2.jpg);
+	width: 100%;
+	height: 100vh;
+    background-size: cover;
+	background-position: center;
+}
+
+.container{
+	
+    margin: 16;
+    padding: 20px;
+    display: flex;
+    background-color:rgba(240, 234, 234, 0.322) ;
+}
+
+
+.container .card{
+    
+    width: 300px;
+    height: 230px;
+    border-radius: 8px;
+    box-shadow: o 2px 2px ;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0,25s;
+    background-color:rgba(43, 94, 153, 0.534);
+}
+
+.container .card:hover {
+    transform: translateY(-15px);
+    overflow: hidden;
+} 
+
+
+.container .card h5{
+    font-weight: 20;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 8px;
+    box-shadow: o 2px 2px ;
+
+}
+
+
+
+
+
+
+.iiicontactanos{
+
+    width: 1350px;
+    height: 300px;
+}
+
+.iconos{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100px;
+    height: 80px;
+}
+
+.fixed-top{
+
+    text-align: end;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px
+}
+
+.fondo{
+	background-image: url('../imagenes/fondo.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+	background-position: center;
+}
+
+#formulario{
+	text-align: center;
+    padding: 0%;
+    margin: auto;
+    background-size: 100%;
+    width: 800px;
+}
+
+.pantalla-dividida{
+    display: flex;
+}
+
+.derecha{
+	text-align: start;
+	margin: auto;
+}
+.izquierda{
+	text-align: left;
+	margin: auto;
+}
+
+.card-header{
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+.card-text{
+    font-size: 25px;
+}
+
+.rounded-circle{
+margin: 0 auto;
+display: block;
+}
+
+.derecha{
+	margin: 1em;
+    padding: 1em;
+    float: left;
+}
+
+.izquierda{
+	margin: 1em;
+    padding: 1em;
+    float: left;
+}
+
+.display-5{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+.tildes{
+    margin: 0 auto;
+    display: block;
+    width: 70px;
+}
+
+footer{
+    background-color: rgba(120, 120,120, _5);
+    line-height: 3;
+    text-align: center;
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    div.example {
+    font-size: 80px;
+    }
+    @media (max-width: 600px) {
+    div.example {
+    font-size: 30px;
+    }
